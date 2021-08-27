@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_16dp">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/RadioButtonVeryGood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_button_very_good_text" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/RadioButtonGood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_button_good_text" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/RadioButtonBad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_button_bad_text" />
+    </RadioGroup>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

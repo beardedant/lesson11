@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSingleChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/single_choice_button_text" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonMultiChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/multi_choice_button_text" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonBottomAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom_alert_button_text" />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
